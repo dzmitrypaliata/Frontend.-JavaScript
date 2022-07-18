@@ -1,0 +1,10 @@
+    body{margin-left: 10%;}
+	div{width: 25rem;height: 40rem;background-color: ;}
+	input{width: 95%;height: 100%;border-color: black;margin-left: 2%;font-size: 3rem;}
+	button{width: 5.5rem;height: 3.5rem;background-color: grey;margin-left: 0.5rem;margin-top: 0.5rem;font: "arial black";font-size: 3rem;border-color: black;border-radius: 10%;}
+    .head{width: 100%;height: 13%;background-color: ;margin-top: 1rem;}
+    .put{width: 100%;height: 15%;background-color: ;margin-top: 1rem;}
+	.onnum{width: 100%;height: 50%;margin-bottom: 1rem;margin-top:1rem; background-color: ;}
+	.onleft{width: 75%;height: 100%;margin-bottom: 1rem;margin-top:1rem; background-color: ;float: left;}
+	.onright{width: 25%;height: 100%;margin-bottom: 1rem;margin-top:1rem; background-color: ;float: right;}
+	.title{color:black;margin-left: 25%;font-size: 2rem;}

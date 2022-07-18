@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1 class="title">Калькулятор</h1>
+        <div class="put">
+            <input type="text" id="num" value="" readonly="readonly"/>
+        </div>
+        <div class="onnum">
+            <div class="onleft">
+                <button value="9" onclick="count(this.value)">9</button><button value="8" onclick="count(this.value)">8</button><button value="7" onclick="count(this.value)">7</button>
+                <button value="6" onclick="count(this.value)">6</button><button value="5" onclick="count(this.value)">5</button><button value="4" onclick="count(this.value)">4</button>
+                <button value="3" onclick="count(this.value)">3</button><button value="2" onclick="count(this.value)">2</button><button value="1" onclick="count(this.value)">1</button>
+                <button value="=" onclick="count(this.value)">=</button><button value="0" onclick="count(this.value)">0</button><button value="C" onclick="count(this.value)">C</button>
+            </div>
+            <div class="onright">
+                <button value="+" onclick="count(this.value)">+</button>
+                <button value="-" onclick="count(this.value)">-</button>
+                <button value="*" onclick="count(this.value)">*</button>
+                <button value="/" onclick="count(this.value)">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
